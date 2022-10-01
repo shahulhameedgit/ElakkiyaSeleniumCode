@@ -141,6 +141,7 @@ public class Fileoperation {
 		readLines.add(1, "new line added");
 		File f1 = new File("./Elakkiya/folder1/newtext.txt");
 		FileUtils.writeLines(f1, readLines);
+		
 	}
 	
 	public static void main(String[] args) throws IOException {
