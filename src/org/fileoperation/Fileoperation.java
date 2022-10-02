@@ -53,6 +53,9 @@ public class Fileoperation {
 	
 	static void Filedelete() {
 		File f = new File("./Elakkiya/folder1/txtfile/file.txt");
+
+		
+		System.out.println("new line");
 		boolean exists = f.isFile();
 		if (exists) {
 			System.out.println("file is found so deleting");
