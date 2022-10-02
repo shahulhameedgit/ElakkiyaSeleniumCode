@@ -54,7 +54,8 @@ public class Fileoperation {
 	static void Filedelete() {
 		File f = new File("./Elakkiya/folder1/txtfile/file.txt");
 
-		
+		System.out.println("adding another line");
+		System.out.println("adding second line");
 		System.out.println("new line");
 		boolean exists = f.isFile();
 		if (exists) {
