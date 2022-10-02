@@ -53,8 +53,6 @@ public class Fileoperation {
 	
 	static void Filedelete() {
 		File f = new File("./Elakkiya/folder1/txtfile/file.txt");
-		// while deleting folder use isDirectory() method
-		// instead u can use exists()
 		boolean exists = f.isFile();
 		if (exists) {
 			System.out.println("file is found so deleting");
